@@ -8,13 +8,17 @@
     <link rel="icon" href="/time-fill.svg">
 </head>
 <body>
-    <div id="container">
-        <div id="clock"></div> 
-        <div id="fullscreen">
-            <button onclick="openFullscreen();">Click Here for Fullscreen</button>
+    <div id="main">
+        <div id="container">
+            <div id="clock"></div> 
+        </div>
+        
+        <div id="controls">
+            <button class="button" onclick="openFullscreen();">Click Here for Fullscreen</button>
+            <button class="button" id="switch">Switch to Dark Mode</button>
         </div>
     </div>
-
+    
     <script src="/script.js"></script>
 </body>
 </html>
