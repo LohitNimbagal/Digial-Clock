@@ -23,6 +23,7 @@ switchButton.addEventListener("click",
         } else {
             container.style.backgroundColor = "white"
             container.style.color = "black"
+            container.style.transition = "all 0.5s ease-out"
             switchButton.innerHTML = "Switch to Dark Mode"
             value = value - 1
         }

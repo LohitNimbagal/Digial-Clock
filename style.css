@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     /* color: antiquewhite; */
 }
 html , body{
@@ -12,38 +12,42 @@ html , body{
 }
 
 #main{
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 
 #container{
-    width: 95%;
+    width: 95vw;
     height: 80%;
+    max-width: 90vw;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem 2.5rem;
     border-radius: 1rem;
     box-shadow: 0px 13px 15px rgba(113, 115, 119, 0.3);
+    /* flex-wrap: wrap; */
+    /* position: relative; */
 }
 
 #clock{
-    width: 90%;
+    width: 90vw;
     height: 80%;
     padding: 3rem ;
     /* background-color: salmon; */
     border-radius: 1rem;
     border: none;
+    outline: none;
     /* box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10rem;
+    font-size: 9rem;
     text-transform: uppercase;
     font-weight: 1000;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #controls{
@@ -57,18 +61,20 @@ html , body{
 button{
     width: 10rem;
     height: 3rem;
-    border: none;
+    border: 1px solid black;
     border-radius: 0.5rem;
     background-color: white;
     color: black;
-    box-shadow: 0px 13px 15px rgba(113, 115, 119, 0.3);
-    margin: 2rem;
+    /* box-shadow: 0px 13px 15px rgba(113, 115, 119, 0.3); */
+    margin: 1rem;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 1000;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 
 button:hover{
+    
     background-color: black;
     color: white;
+    transition: all 0.5s ease-out;
 }
