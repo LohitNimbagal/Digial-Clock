@@ -19,13 +19,13 @@ switchButton.addEventListener("click",
             container.style.backgroundColor = "black"
             container.style.color = "white"
             switchButton.innerHTML = "Switch to Light Mode"
-            value = value + 1
+            value = 1
         } else {
             container.style.backgroundColor = "white"
             container.style.color = "black"
             container.style.transition = "all 0.5s ease-out"
             switchButton.innerHTML = "Switch to Dark Mode"
-            value = value - 1
+            value = 0
         }
     }
 )
