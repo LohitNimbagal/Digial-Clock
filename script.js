@@ -2,7 +2,7 @@ const time = document.querySelector("#clock")
 const container = document.querySelector("#container")
 const ctrButton = document.querySelectorAll("button")
 const switchButton = document.querySelector("#switch")
-let value = 0
+let value = 1
 
 setInterval(function () {
     let date = new Date();
