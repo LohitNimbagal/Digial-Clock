@@ -34,7 +34,7 @@ html , body{
 }
 
 #clock{
-    width: 85vw;
+    width: 85%;
     height: 80%;
     padding: 3rem ;
     /* background-color: salmon; */
@@ -48,7 +48,7 @@ html , body{
     font-size: 9rem;
     text-transform: uppercase;
     font-weight: 1000;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 #controls{
@@ -78,4 +78,13 @@ button:hover{
     background-color: black;
     color: white;
     transition: all 0.5s ease-out;
+}
+
+@media (max-width: 700px){
+    #container{
+        margin: 1.5rem;
+    }
+    #clock{
+        font-size: 20vw;
+    }
 }

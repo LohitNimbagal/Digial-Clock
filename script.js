@@ -6,7 +6,7 @@ let value = 1
 
 setInterval(function () {
     let date = new Date();
-    time.innerHTML = date.toLocaleTimeString()
+    time.innerHTML = date.toLocaleTimeString([], { hour12: true})
 }, 1000)
 
 
